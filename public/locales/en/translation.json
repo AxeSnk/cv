@@ -1,0 +1,28 @@
+{
+  "name": "Aleksandr Aksenov",
+  "titleExperience": "Experience · 3 y 1 m",
+  "month": {
+    "november": "November"
+  },
+  "position": "Frontend developer",
+  "description": {
+    "responsibilities": {
+      "title": "Responsibilities",
+      "r1": "development and integration of new functionality",
+      "r2": "improvements, functionality optimization, bug fixes",
+      "r3": "adaptive cross-browser layout",
+      "r4": "participation in the design of architectural solutions for the project",
+      "r5": "conducting code reviews, sprint planning and reviews"
+    },
+    "success": {
+      "title": "Success",
+      "s1": "the build has been optimized, the bundle size has been reduced by 2 times",
+      "s2": "linter configured",
+      "s3": "TypeScript implemented"
+    }
+  },
+  "about": {
+    "a1": "I am constantly developing my programming skills",
+    "a2": "I can work in a team and read other people's code"
+  }
+}

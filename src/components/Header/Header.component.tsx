@@ -1,14 +1,18 @@
+import { useTranslation } from "react-i18next";
+
 import {Social} from "../../components";
 
 function Header(): JSX.Element {
+  const { t } = useTranslation();
+
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-sky-100 sm:text-5xl">
-          <a href="/">Александр Аксенов</a>
+          <a href="/">{t('name')}</a>
         </h1>
-        <h2 className="mt-3 mb-2 text-lg font-medium tracking-tight text-sky-100 sm:text-xl">Frontend разработчик</h2>
-        <p>Постоянно развиваю свои навыки программирования.<br/> Умею работать в команде и читать чужой код.</p>
+        <h2 className="mt-3 mb-2 text-lg font-medium tracking-tight text-sky-100 sm:text-xl">{t('position')}</h2>
+        <p>{t('about.a1')}.<br/> {t('about.a2')}.</p>
       </div>
       <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
         <Social
