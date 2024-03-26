@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
 
 import {Section, Header, Card} from "../../components";
 
@@ -10,10 +10,10 @@ function Main(): JSX.Element {
   }
 
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="relative mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
       <div className="flex gap-4 justify-end py-2">
-        <button className={`${i18n.language === 'en' && "text-sky-100"} hover:text-sky-100`} onClick={() => changeLanguage('en')}>EN</button>
         <button className={`${i18n.language === 'ru' && "text-sky-100"} hover:text-sky-100`} onClick={() => changeLanguage('ru')}>RU</button>
+        <button className={`${i18n.language === 'en' && "text-sky-100"} hover:text-sky-100`} onClick={() => changeLanguage('en')}>EN</button>
       </div>
       <div className="lg:flex lg:justify-between lg:gap-4">
         <Header/>
