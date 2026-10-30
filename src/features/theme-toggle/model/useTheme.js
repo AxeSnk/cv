@@ -3,7 +3,7 @@ import {THEME_KEY} from '../../../shared/config';
 
 /** Тема: 'light' | 'dark', синхронизируется с <html data-theme> и localStorage. */
 export function useTheme() {
-  const [theme, setTheme] = useState(() => document.documentElement.dataset.theme || 'light');
+  const [theme, setTheme] = useState(() => document.documentElement.dataset.theme || 'dark');
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
