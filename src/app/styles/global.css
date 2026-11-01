@@ -89,6 +89,23 @@ body.custom-cursor button {
   }
 }
 
+/* 3D-фон с роботом — за контентом, не перехватывает Events */
+.robot-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+.robot-bg canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 /* Reveal-анимации */
 .reveal {
   opacity: 0;
@@ -484,7 +501,6 @@ a:hover {
   }
   .hero {
     padding-top: 36px;
-  }
   }
   .hero h1 {
     font-size: 1.9rem;
