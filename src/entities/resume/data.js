@@ -91,7 +91,7 @@ export const data = {
     contacts: {
       title: 'Контакты',
       items: [
-        {label: 'Телефон', value: '+7 (934) 0515374', href: 'tel:+79340515374'},
+        {label: 'Телефон', value: '+7 (934) 051-53-74', href: 'tel:+79340515374'},
         {label: 'Email', value: 'alexand3raxenov@yandex.ru', href: 'mailto:alexand3raxenov@yandex.ru'},
         {label: 'Сайт / CV', value: 'axesnk.github.io/cv', href: 'https://axesnk.github.io/cv'},
         {label: 'Telegram', value: '@Axesnk', href: 'https://t.me/Axesnk'},
@@ -191,7 +191,7 @@ export const data = {
     contacts: {
       title: 'Contacts',
       items: [
-        {label: 'Phone', value: '+7 (934) 0515374', href: 'tel:+79340515374'},
+        {label: 'Phone', value: '+7 (934) 051-53-74', href: 'tel:+79340515374'},
         {label: 'Email', value: 'alexand3raxenov@yandex.ru', href: 'mailto:alexand3raxenov@yandex.ru'},
         {label: 'Website / CV', value: 'axesnk.github.io/cv', href: 'https://axesnk.github.io/cv'},
         {label: 'Telegram', value: '@Axesnk', href: 'https://t.me/Axesnk'},
