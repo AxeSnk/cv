@@ -18,6 +18,7 @@ export function HomePage({lang, onLangChange}) {
       <main>
         <Hero t={t} />
         <Experience t={t} />
+        <Education t={t} />
         <Skills t={t} />
         <Contacts t={t} />
       </main>
