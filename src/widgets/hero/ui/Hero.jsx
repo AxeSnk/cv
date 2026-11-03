@@ -1,5 +1,4 @@
 import {Avatar} from '../../../entities/resume/ui';
-import {PdfDownload} from '../../../features/pdf-download';
 
 export function Hero({t}) {
   return (
@@ -15,9 +14,6 @@ export function Hero({t}) {
               <li key={f}>{f}</li>
             ))}
           </ul>
-          <div className="hero-actions">
-            <PdfDownload label={t.controls.pdf} />
-          </div>
         </div>
       </div>
     </section>

@@ -11,7 +11,6 @@ export const data = {
       themeLight: 'Светлая тема',
       themeDark: 'Тёмная тема',
       lang: 'Переключить язык',
-      pdf: 'Скачать PDF',
     },
     hero: {
       name: 'Аксенов Александр',
@@ -97,6 +96,7 @@ export const data = {
         {label: 'Telegram', value: '@Axesnk', href: 'https://t.me/Axesnk'},
         {label: 'GitHub', value: 'github.com/AxeSnk', href: 'https://github.com/AxeSnk'},
         {label: 'Хабр Карьера', value: 'career.habr.com/axesnk', href: 'https://career.habr.com/axesnk'},
+        {label: 'LinkedIn', value: 'linkedin.com/in/axenovalexander', href: 'https://www.linkedin.com/in/axenovalexander'},
       ],
     },
   },
@@ -111,7 +111,6 @@ export const data = {
       themeLight: 'Light theme',
       themeDark: 'Dark theme',
       lang: 'Switch language',
-      pdf: 'Download CV',
     },
     hero: {
       name: 'Alexander Aksenov',
@@ -197,6 +196,7 @@ export const data = {
         {label: 'Telegram', value: '@Axesnk', href: 'https://t.me/Axesnk'},
         {label: 'GitHub', value: 'github.com/AxeSnk', href: 'https://github.com/AxeSnk'},
         {label: 'Habr Career', value: 'career.habr.com/axesnk', href: 'https://career.habr.com/axesnk'},
+        {label: 'LinkedIn', value: 'linkedin.com/in/axenovalexander', href: 'https://www.linkedin.com/in/axenovalexander'},
       ],
     },
   },

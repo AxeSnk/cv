@@ -6,11 +6,21 @@ import {getInitialLang} from '../shared/lib/lang';
 import './styles/global.css';
 
 export function App() {
-  const [lang, setLang] = useState(getInitialLang);
+  const [lang, setLang] = useState('ru');
+  const [langReady, setLangReady] = useState(false);
 
   useEffect(() => {
-    document.documentElement.lang = lang;
-  }, [lang]);
+    getInitialLang().then((detected) => {
+      setLang(detected);
+      setLangReady(true);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (langReady) document.documentElement.lang = lang;
+  }, [lang, langReady]);
+
+  if (!langReady) return null;
 
   return (
     <>
